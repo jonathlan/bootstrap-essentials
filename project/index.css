@@ -1,3 +1,11 @@
+.highlight-text{
+    color: #97c93e !important;
+}
+
+#header img {
+    width: 80px;
+}
+
 #footer {
     background: #03091e!important;
 }
