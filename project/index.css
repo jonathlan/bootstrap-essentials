@@ -1,5 +1,14 @@
-.highlight-text{
+.highlight-text {
     color: #97c93e !important;
+}
+
+.btn-custom {
+    background-color: #97c93e;
+    color: white !important; /* "!Important" is required, otherwise the text will become black on hover*/
+}
+
+.btn-custom:hover {
+    background-color: #6a8f2c;
 }
 
 #header img {
