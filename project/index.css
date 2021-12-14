@@ -41,6 +41,14 @@
     height: 100%;
 }
 
+#place-time {
+    background-color: #343a40;
+    color: white;
+}
+#place-time img {
+    max-width: 100%;
+}
+
 #footer {
     background: #03091e!important;
 }
