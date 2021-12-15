@@ -40,7 +40,7 @@
                     <a class="nav-link" href="#become-a-speaker">Conviertete en orador</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link highlight-text" href="#">Compra de tickets</a>
+                    <a class="nav-link highlight-text" href="#" data-toggle="modal" data-target="#modal-compra">Compra de tickets</a>
                 </li>
             </ul>
             </div>
@@ -70,7 +70,7 @@
                             <!--Display none for small devices, but display block for medium size devices-->
                             <p class="d-none d-md-block">Ahora la conferencia llega por primera vez a Hawaii, un evento para compartir con nuestra comunidad, el conocimiento y experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros de team, a otros estudiantes y a los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
                             <a href="#" class="btn btn-outline-light">Quiero ser orador</a>
-                            <button type="button" class="btn btn-custom">Comprar tickets</button>
+                            <button type="button" class="btn btn-custom" data-toggle="modal" data-target="#modal-compra">Comprar tickets</button>
                         </div>
                     </div>
                 </div>
@@ -239,6 +239,28 @@
         </div>
     </footer>
     <!-- /Footer -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal-compra" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Modal-->
 
     <!-- Optional JavaScript-->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
