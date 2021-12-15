@@ -13,7 +13,7 @@
 
     <title>Let's go to Hawaii</title>
   </head>
-  <body data-spy="scroll" data-target="#navbar" data-offset="56"> <!--"data-offset" is needed so that the scroll spy does not start right at the top, but after 56px which is the height of the navbar.-->
+  <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="56"> <!--"data-bs-offset" is needed so that the scroll spy does not start right at the top, but after 56px which is the height of the navbar.-->
     <!-- Header -->    
     <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container">
@@ -21,7 +21,7 @@
                 <img src="./assets/images/platzi-logo.png" alt="Platzi logo">
                 Conf Hawaii
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
         
@@ -40,7 +40,7 @@
                     <a class="nav-link" href="#become-a-speaker">Conviertete en orador</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link highlight-text" href="#" data-toggle="modal" data-target="#modal-compra">Compra de tickets</a>
+                    <a class="nav-link highlight-text" href="#" data-bs-toggle="modal" data-bs-target="#modal-compra">Compra de tickets</a>
                 </li>
             </ul>
             </div>
@@ -50,7 +50,7 @@
 
     <!-- Main -->
     <main id="main">
-        <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+        <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
             <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="./assets/images/hawaii.jpg" class="d-block w-100" alt="Hawaii 1">
@@ -70,7 +70,7 @@
                             <!--Display none for small devices, but display block for medium size devices-->
                             <p class="d-none d-md-block">Ahora la conferencia llega por primera vez a Hawaii, un evento para compartir con nuestra comunidad, el conocimiento y experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros de team, a otros estudiantes y a los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
                             <a href="#become-a-speaker" class="btn btn-outline-light">Quiero ser orador</a>
-                            <button type="button" class="btn btn-custom" data-toggle="modal" data-target="#modal-compra">Comprar tickets</button>
+                            <button type="button" class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#modal-compra">Comprar tickets</button>
                         </div>
                     </div>
                 </div>
@@ -176,7 +176,7 @@
             <div class="row">
                 <div class="col text-center">
                     <!--Tooltips need to be initialized with a script, see index.js-->
-                    Anotate como <abbr data-toggle="tooltip" title="También conocidos como speakers">orador</abbr> para dar una <abbr data-toggle="tooltip" title="Charlas de 5 minutos">charla ignite</abbr>. ¡Cuentanos de que quieres hablar!
+                    Anotate como <abbr data-bs-toggle="tooltip" title="También conocidos como speakers">orador</abbr> para dar una <abbr data-bs-toggle="tooltip" title="Charlas de 5 minutos">charla ignite</abbr>. ¡Cuentanos de que quieres hablar!
                 </div>
             </div>
             <div class="row">
@@ -246,7 +246,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">Comprar tickets</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
@@ -269,7 +269,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                     <button type="button" class="btn btn-custom">Comprar</button>
                 </div>
             </div>
