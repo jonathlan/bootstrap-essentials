@@ -8,20 +8,20 @@ This project was originally created in Bootstrap v4.6 and then migrated to Bootr
 
 You can see the project in this link:
 
-https://jonathlan.github.io/bootstrap4-essentials/project/
+https://jonathlan.github.io/bootstrap-essentials/project/
 
 # Samples
 ## Samples folder
 You will find a few samples for the different capabilities of Bootstrap, specially on the grid system.
 
-- [basic.html](https://jonathlan.github.io/bootstrap4-essentials/samples/basic.html) - It's just the hello world using Bootstrap and shows how to add the framework to the page.
+- [basic.html](https://jonathlan.github.io/bootstrap-essentials/samples/basic.html) - It's just the hello world using Bootstrap and shows how to add the framework to the page.
 
 ### Grid folder
 This contains a set of samples for the grid manipulation.
-1. [basics.html](https://jonathlan.github.io/bootstrap4-essentials/samples/grid/basics.html) - Basic sample where you can see how the grid works in a very general way.
-2. [grid-basic-2.html](https://jonathlan.github.io/bootstrap4-essentials/samples/grid/grid-basic-2.html) - A more organized sample where you can see different alignemnts for rows and columns.
-3. [grid-responsive-html](https://jonathlan.github.io/bootstrap4-essentials/samples/grid/grid-responsive.html) - This file shows how to change columns' width based on device's sizes.
-4. [offsetting.html](https://jonathlan.github.io/bootstrap4-essentials/samples/grid/offsetting.html) - In Bootstrap, it is possible to offset the columns' position based on device's sizes, this file shows how to do that.
+1. [basics.html](https://jonathlan.github.io/bootstrap-essentials/samples/grid/basics.html) - Basic sample where you can see how the grid works in a very general way.
+2. [grid-basic-2.html](https://jonathlan.github.io/bootstrap-essentials/samples/grid/grid-basic-2.html) - A more organized sample where you can see different alignemnts for rows and columns.
+3. [grid-responsive-html](https://jonathlan.github.io/bootstrap-essentials/samples/grid/grid-responsive.html) - This file shows how to change columns' width based on device's sizes.
+4. [offsetting.html](https://jonathlan.github.io/bootstrap-essentials/samples/grid/offsetting.html) - In Bootstrap, it is possible to offset the columns' position based on device's sizes, this file shows how to do that.
 
 # Migration from Bootstrap v4 to v5
 
